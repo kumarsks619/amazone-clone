@@ -1,0 +1,19 @@
+.checkout {
+    background-color: #fff;
+    display: flex;
+}
+
+.checkoutProduct__left, .checkoutProduct__right {
+    margin: 10px;
+}
+
+.checkout__adImg {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout__title {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

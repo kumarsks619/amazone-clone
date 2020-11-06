@@ -1,0 +1,73 @@
+.login {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__logo {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login__formContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.login__formContainer > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__formContainer > form > h5 {
+    margin-bottom: 5px;
+}
+
+.login__formContainer > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 98%;
+    border-radius: 3px;
+    border: 1px solid lightslategray;
+}
+
+.login__formContainer > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__loginBtn {
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.login__newToAmazon {
+    text-align: center;
+    padding-top: 20px !important;
+    border-top: 1px solid lightgray;
+    color: #767676;
+}
+
+.login__signUpBtn {
+    border: 1px solid;
+    border-color: darkgray;
+    color: #111;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
